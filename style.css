@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ 
+
+body {
+    font-family: sans-serif;
+    background-color: #212121;
+}
+
+h1, p {
+  color: white;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: #212121;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 15px;
+}
+
+header .menu-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .menu-bar ul li {
+    padding: 15px;
+    list-style: none;
+}
+header .menu-bar ul li a {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+header .menu-bar ul li a:hover {
+    color: yellow;
+}
+
+.content-section{
+    position: relative;
+    margin-top: 90px;
+    height: 100vh;
+    padding: 30px
+}
+
+header.sticky {
+    background-color: white;
+}
+
+header.sticky ul li a {
+    color: black;
+}
+header.sticky .logo a{
+    color: black;
+}
